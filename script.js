@@ -60,7 +60,7 @@ arr.forEach((button) => { // arrow back function call
 
 });
 
-body.addEventListener("keydown",function(event){ // call back function call
+document.addEventListener("keydown",function(event){ // call back function call
     if(event.key == 'Enter'){
         event.preventDefault();
         try{
